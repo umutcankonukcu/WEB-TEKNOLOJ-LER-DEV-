@@ -1,0 +1,21 @@
+.banner{
+height: 100vh;
+width: 100%;
+background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Resimler/anıtkabir.jpg);
+background-position: center;
+background-size: cover;
+}
+p{
+    width: 100%;
+    position:  absolute;
+    top:50%;
+    color: white;
+    text-align: center;
+}
+h1{
+    width: 100%;
+    position:  absolute;
+    top:40%;
+    color: white;
+    text-align: center;
+}

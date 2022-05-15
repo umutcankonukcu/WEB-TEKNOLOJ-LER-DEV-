@@ -1,0 +1,32 @@
+.back {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Resimler/ankara.jpg);
+    background-size: cover;    
+}
+.capsule{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+    color: white;
+}
+thead{
+    text-decoration:underline;
+    
+}
