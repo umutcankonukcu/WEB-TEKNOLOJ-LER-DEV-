@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+height: 150vh;
+width: 100%;
+background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Resimler/anıtkabir.jpg);
+background-position: center;
+background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;   
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer{
+    background-color: black;    
+}
+footer p {
+    color: #fff;
+    text-align: right;
+}
+
+
+.Movies {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.Movies li {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style: none;
+margin: 10px;
+padding: 15px;
+border-radius: 12px;
+text-align: center;
+background: #272727;
+}
+.Movies li img {
+max-width: 300px;
+border-radius: 12px;
+}
+.Movies li h2 {
+color: #fff;
+font-size: 1.8em;
+padding: 15px 10px 0;
+margin-top: auto;
+font-family: "Oswald", sans-serif;
+}
